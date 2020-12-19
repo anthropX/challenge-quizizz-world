@@ -1,0 +1,28 @@
+.App {
+  position: relative;
+}
+
+.dashboard {
+  display: inline-block;
+  position: relative;
+  z-index: 10;
+}
+
+img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.answer {
+  position: absolute;
+  background: red;
+}
+
+.hint {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background: blue;
+  border-radius: 50%;
+}
