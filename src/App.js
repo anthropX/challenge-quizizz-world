@@ -73,7 +73,6 @@ function App() {
     resetMidPoint();
   };
 
-  
   const showTransistion = locusX === midX && locusY === midY;
   return (
     <div className="App">
@@ -87,8 +86,6 @@ function App() {
         style={{ width: imageWidth, height: imageHeight }}
         src={imageUrl}
         alt="World Map"
-        width={imageWidth}
-        height={imageHeight}
       />
       <div
         className="answer"
@@ -96,8 +93,8 @@ function App() {
         style={{
           left: answerOffsetX + "px",
           top: answerOffsetY + "px",
-          width: answerWidth,
-          height: answerHeight,
+          width: answerWidth + "px",
+          height: answerHeight + "px",
         }}
       />
       {midX !== 0 && midY !== 0 ? (
